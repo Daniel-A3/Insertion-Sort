@@ -7,7 +7,7 @@ def insertionSort(arrayOne):
         valueSorted = False
         count = i
         while arrayOne[count] < arrayOne[count-1] and count != 0:
-            # Swamps the two values
+            # Swaps the two values
             temp = arrayOne[count]
             arrayOne[count] = arrayOne[count-1]
             arrayOne[count-1] = temp
